@@ -4,47 +4,252 @@
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107144990-1"></script>
 	<script>
 	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments)};
+	  function gtag()
+	  dataLayer.push(arguments);
 	  gtag('js', new Date());
 
 	  gtag('config', 'UA-107144990-1');
 	</script>
 
     <meta charset = "utf-8">
-    <title>Personal website of Tomáš Kissík</title>
+    <title>Tomáš Kissík - Curriculum Vitae - CV</title>
 
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 	<style>
+	body {
+		color: #2F343B;
+	}
 
 	h1 {
-		font-family: Lato;
-		font-size: 24px;
 		font-style: bold;
 		font-variant: normal;
-		font-weight: 1000;
-		line-height: 20px;
 	}
 
-	p{
-		font-family: Lato;
-		font-size: 13px;
+	h2 {
+		font-style: bold;
+		font-variant: normal;
+		color: #5E3930;
+		border-bottom: 4px solid #5E3930;
+	}
+
+	h4 {
+		color: #5E3930;
+	}
+
+	p {
 		font-style: normal;
 		font-variant: normal;
-		font-weight: 400;
-		line-height: 20px;
-		margin-top: 0;
 	}
+
+	.contact-item {
+		display: inline-block;
+	}
+
+	.date-float {
+		display: inline;
+	}
+
+	.faded {
+		color: #A9A9A9;
+	}
+
+	.notfaded {
+		color: #5E3930;
+	}
+
+	.tag {
+		display: inline-block;
+		font-weight: 400;
+		text-align: center;
+		white-space: nowrap;
+		vertical-align: middle;
+		user-select: none;
+		border: 1px solid transparent;
+		padding: .2rem .75rem;
+		line-height: 1;
+		border-radius: .25rem;
+		border-color: #868e96;
+	}
+
 	</style>
   </head>
-  <body>
-  	<h1>Hi,</h1> 
-  	<p>
-	    my name is <strong>Tomáš Kissík</strong> and I am Credit Risk Portfolio Analyst located in Prague, Czech republic. 
-	    <br />If you are interested to know more about me, here you can find my <a href="docs/CV_Tomas_Kissik.pdf">CV</a>.
-		<br />If you want to contact me, write on <a href="mailto:tomas@kissik.sk?subject=Hi">tomas@kissik.sk</a>, add me on <a href="https://www.facebook.com/tomaskissik/">facebook</a> or <a href="https://www.linkedin.com/in/tomaskissik/">linkedin</a>.
-	</p>
-    <p>Have a nice day.</p>
-	<p>Tomáš</p>
+	<body>
+		<div class="container">
+			<h1 class="display-4">Tomáš Kissík <span class="h4 float-right"><a href="http://tomas.kissik.sk/docs/CV_Tomas_Kissik.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> download in pdf</a></span></h1>
+			<p>
+				<span class="contact-item ml-2"><i class="fa fa-at" aria-hidden="true" title="E-mail adress"></i> <a href="mailto:tomas@kissik.sk">tomas@kissik.sk</a></span>
+				<span class="contact-item ml-2"><i class="fa fa-phone" aria-hidden="true" title="Czech telephone number"></i> <a href="tel:+420 776819280">+420 776 819 280</a></span>
+				<span class="contact-item ml-2"><i class="fa fa-phone" aria-hidden="true" title="Slovak telephone number"></i> <a href="tel:+421908681391">+421 908 681 391</a></span>
+				<span class="contact-item ml-2"><i class="fa fa-map-marker" aria-hidden="true" title="Located in"></i> Prague, Czech republic</span>
+				<span class="contact-item ml-2"><i class="fa fa-envelope" aria-hidden="true" title="My address"></i> Růžová 947/8, 11000, Prague 1</span>
+				<br>
+				<span class="contact-item ml-2"><i class="fa fa-chain" aria-hidden="true" title="Personal webpage address"></i> <a href="http://tomas.kissik.sk/">tomas.kissik.sk/</a></span>
+				<span class="contact-item ml-2"><i class="fa fa-facebook" aria-hidden="true" title="Link to Facebook profile"></i> <a href="https://facebook.com/tomaskissik/">facebook.com/tomaskissik/</a></span>
+				<span class="contact-item ml-2"><i class="fa fa-linkedin" aria-hidden="true" title="Link to LinkedIn profile"></i> <a href="https://linkedin.com/in/tomaskissik/">linkedin.com/in/tomaskissik/</a></span>
+			</p>
+			<div class="row">
+				<div class="col-md-8">
+				<h2>Experience</h2>
+				<h3>Credit Risk Portfolio Analyst</h3>
+				<h4>Komerční banka, a. s.</h4>
 
-  </body>
+				<p>
+					<i class="fa fa-calendar" aria-hidden="true"></i> November 2013 - Ongoing
+					<span class="float-right"><i class="fa fa-map-marker" aria-hidden="true"></i> Prague, Czech Republic</span>
+				</p> 
+
+				<p>Working in a small international team of nine people, being responsible for creation of regular reports and ad-hoc analysis for internal decision making purposes for risk, marketing and distribution departments, Czech National Bank as a regulator, external and internal audit. Backtesting scorecard and LGD models and maintenance of its documentation. Working with Oracle, Teradata SQL databases and SAS statistical software on daily basis. Mentoring new and part-time colleagues. Also completed training in SAS macro programing, advanced Excel functions and credit analysis of financial reports.</p>
+
+				<hr>
+
+				<h3>Online Marketing Assistant</h3>
+				<h4>SEVT, a. s.</h4><span class="contact-item">
+				<p>
+					<i class="fa fa-calendar" aria-hidden="true"></i> March 2012 - May 2012
+					<span class="float-right"><i class="fa fa-map-marker" aria-hidden="true"></i> Prague, Czech Republic</span>
+				</p> 
+
+				<p>Maintained company‘s internal databases, updated content of web pages. Assisted with migration of databases to new CMS. Provided customer support and participated on company‘s projects which included administrative work, product presentations and data analysis.</p> 
+
+				<hr>
+
+				<h3>Website Administrator</h3>
+				<h4>Retail Info, s.r.o., Deal Info, s.r.o.</h4> 
+				<p>
+					<i class="fa fa-calendar" aria-hidden="true"></i> April 2011 - Jun 2013
+					<span class="float-right"><i class="fa fa-map-marker" aria-hidden="true"></i> Prague, Czech Republic</span>
+				</p> 
+				<p>Took care of regular every day updates of company's web page content and databases. Part-time job during university studies.</p> 
+
+				
+				
+				<h2>Education</h2>
+				<h3>Master's degree in Finance</h3>
+				<div class="mb-1">
+					<h4 class = "date-float">University of Economics, Prague</h4>
+					<span class="float-right"><i class="fa fa-calendar" aria-hidden="true"></i> 2013 - 2016 </span>
+				</div>
+
+				<p>Secondary specialisation: <strong>Data engineering</strong> at Faculty of Informatics and Statistics</p>
+
+				<p>Title of the master thesis: <a href='https://vskp.vse.cz/eid/53571/'>Analysis of the Factors Affecting Credit Risk in Personal Lending</a></p>
+
+				<p>Finished master degree in study program finance, which provided me knowledge of the problems of financial markets, banking, insurance, national, local budgets and public finance. The study program included basic knowledge of accounting, financial statement analysis and financial management.</p>
+
+				<p>Secondary specialization in data engineering provided me introduction to basic data processing methods. The emphasis was also on getting acquainted with current research trends. I studied and got hands on data mining methods while solving practical problems, applied business intelligence and worked with web scraping, language processing and data quality management methods.</p>
+
+				<hr>
+
+				<h3>Bachelor's degree in Finance</h3>
+				<div class="mb-1">
+					<h4 class = "date-float">University of Economics, Prague</h4>
+					<span class="float-right"><i class="fa fa-calendar" aria-hidden="true"></i> 2010 - 2013</span>
+				</div>
+
+				<p>Title of the bachelor thesis: <a href='https://vskp.vse.cz/63498/'>Foreign exchange reserves of China, reasons for holding reserves and adequacy</a></p>
+
+				<p>Finished three-month Work and Travel USA program.</p>
+
+			</div>
+			<div class="col-md-4">
+				<h2>Skills</h2>
+
+				<span class="tag">Data Analysis</span>
+				<span class="tag">Data Mining</span>
+				<span class="tag">Econometrics</span>
+				<span class="tag">Model Development</span>
+				<span class="tag">Web Development</span>
+				<span class="tag">Graphic Design</span>
+				<span class="tag">Big Data</span>
+				<span class="tag">Driving license type B</span>
+
+				<hr>
+
+				<span class="tag">SQL</span>
+				<span class="tag">Oracle</span>
+				<span class="tag">Teradata</span>
+				<span class="tag">SAS</span>
+				<span class="tag">R</span>
+				<span class="tag">Git</span>
+				<span class="tag">LaTeX</span>
+				<span class="tag">Microsoft Office</span>
+				<span class="tag">VBA</span>
+				<span class="tag">HTML</span>
+				<span class="tag">PHP</span>
+				<span class="tag">JavaScript</span>
+				<span class="tag">Shell</span>
+				<span class="tag">Adobe Products</span>
+
+				<h2>Languages</h2>
+				<p><strong>Slovak</strong>
+				<span class="float-right">
+					<i class="fa fa-circle notfaded" aria-hidden="true"></i>
+					<i class="fa fa-circle notfaded" aria-hidden="true"></i>
+					<i class="fa fa-circle notfaded" aria-hidden="true"></i>
+					<i class="fa fa-circle notfaded" aria-hidden="true"></i>
+					<i class="fa fa-circle notfaded" aria-hidden="true"></i>
+				</span>
+				</p>
+				<hr>
+				<p><strong>English</strong>
+				<span class="float-right">
+					<i class="fa fa-circle notfaded" aria-hidden="true"></i>
+					<i class="fa fa-circle notfaded" aria-hidden="true"></i>
+					<i class="fa fa-circle notfaded" aria-hidden="true"></i>
+					<i class="fa fa-circle notfaded" aria-hidden="true"></i>
+					<i class="fa fa-circle faded" aria-hidden="true"></i>
+				</span>
+				</p> 
+				<hr>
+				<p><strong>Czech</strong>
+				<span class="float-right"> 
+					<i class="fa fa-circle notfaded" aria-hidden="true"></i>
+					<i class="fa fa-circle notfaded" aria-hidden="true"></i>
+					<i class="fa fa-circle notfaded" aria-hidden="true"></i>
+					<i class="fa fa-circle faded" aria-hidden="true"></i>
+					<i class="fa fa-circle faded" aria-hidden="true"></i>
+				</span>
+				</p>
+				<hr>
+				<p><strong>French</strong> <em>trying to improve</em>  
+				<span class="float-right">
+					<i class="fa fa-circle notfaded" aria-hidden="true"></i>
+					<i class="fa fa-circle faded" aria-hidden="true"></i>
+					<i class="fa fa-circle faded" aria-hidden="true"></i>
+					<i class="fa fa-circle faded" aria-hidden="true"></i>
+					<i class="fa fa-circle faded" aria-hidden="true"></i> 
+				</span>
+				</p>
+
+				<h2>Projects</h2>
+				<h3>Technical Reviewing </h3>
+				<h4>Packt Publishing ltd.</h4>
+				<i class="fa fa-calendar" aria-hidden="true"></i> April 2011 - Jun 2013 
+				<p>Participated remotely on technical side of two professional books about web content management system, written in PHP.<p/>
+
+				<i class="fa fa-book" aria-hidden="true"></i> <strong>Books</strong>
+
+				<ul>
+					<li>Hasan, Tahsin (2011). OpenCart 1.4 Template Design Cookbook. Packt Publishing. ISBN: 1849514305, 9781849514309.</li>
+					<li>Yilmaz, Murat (2010). OpenCart 1.4 Beginner’s Guide. Packt Publishing. ISBN: 1849513023, 9781849513029.</li>
+				</ul>
+
+				<h2>Interests</h2>
+				<i class="fa fa-instagram" aria-hidden="true"></i> Traveling and taking photos. 
+				<a href="https://instagram.com/tomaskissik/">instagram.com/tomaskissik/</a>
+				<hr>
+				<i class="fa fa-lastfm" aria-hidden="true"></i> Listenig to music and going to concerts. 
+				<a href="https://last.fm/user/tomaskissik/">last.fm/user/tomaskissik/</a>
+			</div>
+		</div>
+	</div>
+ 	</body>
 </html>
